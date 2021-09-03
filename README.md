@@ -16,4 +16,6 @@ alias kubectl='microk8s kubectl'
 
 alias helm='microk8s helm'
 
+helm init --stable-repo-url https://charts.helm.sh/stable --history-max 200
+
 ```
