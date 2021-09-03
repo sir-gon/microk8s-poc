@@ -8,9 +8,12 @@ Reference https://microk8s.io/docs
 ```
 microk8s status --wait-ready
 
-alias kubectl='microk8s kubectl'
-
 microk8s enable dns storage
 
 microk8s enable helm
+
+alias kubectl='microk8s kubectl'
+
+alias helm='microk8s helm'
+
 ```
